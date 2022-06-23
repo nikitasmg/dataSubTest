@@ -12,10 +12,10 @@ export const PayForm = () => {
         reValidateMode: 'onChange',
         //Для удобвства предзаполненые данные
         defaultValues: {
-            cardNumber: '4917881439840940',
-            expDate: '20/2022',
-            cvv: '123',
-            amount: '1234',
+            cardNumber: '',
+            expDate: '',
+            cvv: '',
+            amount: '',
         }
         // // Пример данных
         // }  defaultValues: {
